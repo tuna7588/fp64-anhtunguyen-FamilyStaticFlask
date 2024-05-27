@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from fp64_anhtunguyen_familystaticflask import create_app
+from fp64_anhtunguyen_familystaticflask.ext.commands import populate_db
+from fp64_anhtunguyen_familystaticflask.ext.database import db
 
 
 @pytest.fixture(scope="session")

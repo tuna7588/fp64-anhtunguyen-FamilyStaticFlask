@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from fp64_anhtunguyen_familystaticflask.ext.auth import create_user
+from fp64_anhtunguyen_familystaticflask.ext.database import db
+from fp64_anhtunguyen_familystaticflask.models import Product
 
 
 def create_db():
